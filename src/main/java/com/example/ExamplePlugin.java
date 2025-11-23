@@ -26,14 +26,14 @@ public class ExamplePlugin extends Plugin
 
 	@Override
 	protected void startUp() throws Exception
-	{
-		log.debug("Example started!");
+    {
+        // Starting
 	}
 
 	@Override
 	protected void shutDown() throws Exception
-	{
-		log.debug("Example stopped!");
+    {
+        // Stopping
 	}
 
 	@Subscribe
